@@ -12,8 +12,8 @@
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <StackLayout HorizontalOptions="FillAndExpand" Margin="0" Padding="0">
-                                <Label Text="{Binding name}" FontSize="Medium" TextColor="Black"></Label>
-                                <Label Text="{Binding Location.address}" FontSize="Small" TextColor="DarkGray"></Label>
+                                <Label Text="{Binding name}" FontSize="Medium" TextColor="Black"/>
+                                <Label Text="{Binding Location.address}" FontSize="Small" TextColor="DarkGray"/>
                             </StackLayout>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

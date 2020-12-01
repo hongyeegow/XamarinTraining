@@ -7,7 +7,7 @@
         <viewmodel:MainViewModel/>
     </ContentPage.BindingContext>
     <StackLayout>
-        <Label Text="Welcome to Xamarin.Forms!"
+        <Label Text="Welcome to Xamarin.Forms Tutorial!"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand"/>
         <Button Text="Search Nearby" Command="{Binding gotoCmd}"/>
